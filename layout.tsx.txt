@@ -1,7 +1,7 @@
 import "./globals.css";
 import Link from "next/link";
 
-export const metadata = {
+
   export const metadata = {
   title: "WagerLedger — Market & Sessions",
   description: "Observatoire marché + tracker perso de sessions (responsable).",
