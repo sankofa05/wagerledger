@@ -4,11 +4,13 @@ export type MarketPoint = {
 };
 
 export type MarketSeries = {
-  id: "FR_ONLINE" | "UK_ONLINE" | "NV_REVENUE";
+  // ex: "FR_ONLINE", "UK_GGY", "NV_REVENUE" ...
+  // string pour permettre l'import CSV/JSON sans recompiler à chaque nouveau dataset.
+  id: string;
   label: string;
   unit: string;
   points: MarketPoint[];
-  sourceNote: string;
+  sourceNote?: string;
 };
 
 export type Session = {

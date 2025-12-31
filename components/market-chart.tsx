@@ -20,13 +20,14 @@ export function MarketChart({ series }: { series: MarketSeries[] }) {
           <YAxis tick={{ fontSize: 12 }} />
           <Tooltip />
           <Legend />
-          {series.map((s) => (
+          {series.map((s, idx) => (
             <Line
               key={s.id}
               type="monotone"
               dataKey={s.id}
               dot={false}
               strokeWidth={2}
+              stroke={strokeFor(idx)}
             />
           ))}
         </LineChart>
@@ -36,6 +37,12 @@ export function MarketChart({ series }: { series: MarketSeries[] }) {
       </p>
     </div>
   );
+}
+
+function strokeFor(i: number) {
+  // Couleurs générées (pas de palette figée) : lisible, stable, simple.
+  const hue = (i * 57) % 360;
+  return `hsl(${hue} 70% 60%)`;
 }
 
 function mergeSeries(series: MarketSeries[]) {
