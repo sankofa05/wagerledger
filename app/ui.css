@@ -1,0 +1,5 @@
+/* IMPORTANT:
+   Ce fichier était la cause du crash car il contenait @layer components
+   sans directive @tailwind components active.
+   Tout est centralisé dans app/globals.css.
+*/

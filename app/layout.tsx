@@ -2,8 +2,8 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "WagerLedger — Market & Sessions",
-  description: "Observatoire marché + tracker perso de sessions (responsable).",
+  title: "SESSION LAB — Simulation & Analytics",
+  description: "Packs (PDF + templates + presets) + outil de suivi responsable. Contenu éducatif, aucune promesse de gains.",
 };
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
@@ -21,18 +21,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-50 backdrop-blur bg-black/25 border-b border-white/10">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <Link href="/" className="font-semibold tracking-wide">
-              WagerLedger <span className="text-white/60 font-normal">— Market & Sessions</span>
+              SESSION LAB
+              <span className="text-white/60 font-normal"> — simulation & analytics</span>
             </Link>
 
             <nav className="flex items-center gap-4">
+              <NavLink href="/packs">Packs</NavLink>
               <NavLink href="/market">Marché</NavLink>
               <NavLink href="/tracker">Tracker</NavLink>
-              <NavLink href="/sources">Sources</NavLink>
             </nav>
           </div>
         </header>
 
         <main className="max-w-6xl mx-auto px-4 py-8">{children}</main>
+
+        <footer className="max-w-6xl mx-auto px-4 pb-10 pt-6 border-t border-white/10 text-xs text-white/60">
+          <div className="flex flex-col gap-2">
+            <p>
+              <span className="text-white/70">Disclaimer :</span> contenu éducatif & simulation. Aucune promesse de gains,
+              aucune méthode “pour battre le casino”.
+            </p>
+            <p>© {new Date().getFullYear()} SESSION LAB</p>
+          </div>
+        </footer>
       </body>
     </html>
   );

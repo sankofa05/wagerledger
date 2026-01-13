@@ -1,0 +1,1484 @@
+{
+  "version": 1,
+  "brand": "SESSION LAB",
+  "createdAt": "2026-01-04",
+  "locale": "fr-FR",
+  "wheelDefault": "EU",
+  "notes": "Presets v1 - simulation/entrainement (educatif). Aucun resultat garanti.",
+  "presets": [
+    {
+      "id": "SL-ESS-01",
+      "pack": "Essentials",
+      "name": "Outside Flat - Rouge",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "RED",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-ESS-02",
+      "pack": "Essentials",
+      "name": "Outside Flat - Noir",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "BLACK",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-ESS-03",
+      "pack": "Essentials",
+      "name": "Outside Flat - 1-18",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "LOW",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-ESS-04",
+      "pack": "Essentials",
+      "name": "Coverage - 2 douzaines (D1+D2)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "Couvre 24 numeros sur 37 (roulette EU).",
+      "legs": [
+        {
+          "type": "DOZEN",
+          "pick": "D1",
+          "units": 1
+        },
+        {
+          "type": "DOZEN",
+          "pick": "D2",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-ESS-05",
+      "pack": "Essentials",
+      "name": "French Bet - Voisins du Zero (9u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 2,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 3,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 4,
+          "b": 7,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 12,
+          "b": 15,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 18,
+          "b": 21,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 19,
+          "b": 22,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 25,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 32,
+          "b": 35,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-01",
+      "pack": "Trainer",
+      "name": "French Bet - Tiers du Cylindre (6u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 27,
+          "b": 30,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 8,
+          "b": 11,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 10,
+          "b": 13,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 23,
+          "b": 24,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 5,
+          "b": 6,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 16,
+          "b": 33,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-02",
+      "pack": "Trainer",
+      "name": "French Bet - Orphelins (5u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "STRAIGHT",
+          "n": 1,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 6,
+          "b": 9,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 14,
+          "b": 17,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 17,
+          "b": 20,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 31,
+          "b": 34,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-03",
+      "pack": "Trainer",
+      "name": "Outside Flat - Pair",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "EVEN",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-04",
+      "pack": "Trainer",
+      "name": "Outside Flat - Impair",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "ODD",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-05",
+      "pack": "Trainer",
+      "name": "Outside Flat - 19-36",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "HIGH",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-06",
+      "pack": "Trainer",
+      "name": "Dozaine - D2 (13-24)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "DOZEN",
+          "pick": "D2",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-07",
+      "pack": "Trainer",
+      "name": "Colonne - C2",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "COLUMN",
+          "pick": "C2",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-08",
+      "pack": "Trainer",
+      "name": "Coverage - 2 colonnes (C1+C2)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "COLUMN",
+          "pick": "C1",
+          "units": 1
+        },
+        {
+          "type": "COLUMN",
+          "pick": "C2",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-09",
+      "pack": "Trainer",
+      "name": "Coverage - 2 colonnes (C2+C3)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "COLUMN",
+          "pick": "C2",
+          "units": 1
+        },
+        {
+          "type": "COLUMN",
+          "pick": "C3",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-10",
+      "pack": "Trainer",
+      "name": "Coverage - 2 douzaines (D2+D3)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "DOZEN",
+          "pick": "D2",
+          "units": 1
+        },
+        {
+          "type": "DOZEN",
+          "pick": "D3",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-11",
+      "pack": "Trainer",
+      "name": "Outside Mix - Rouge + D2 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "RED",
+          "units": 1
+        },
+        {
+          "type": "DOZEN",
+          "pick": "D2",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-12",
+      "pack": "Trainer",
+      "name": "Inside - Street 1-3 (1u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "STREET",
+          "start": 1,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-13",
+      "pack": "Trainer",
+      "name": "Inside - Six-line 1-6 (1u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SIXLINE",
+          "start": 1,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-14",
+      "pack": "Trainer",
+      "name": "Inside - 4 corners ladder (4u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "CORNER",
+          "topLeft": 1,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 4,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 7,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 10,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-TRN-15",
+      "pack": "Trainer",
+      "name": "Inside - Splits vertical chain (4u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 8,
+          "b": 11,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 11,
+          "b": 14,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 14,
+          "b": 17,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 17,
+          "b": 20,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-01",
+      "pack": "Pro",
+      "name": "Flat - Rouge (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "RED",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-02",
+      "pack": "Pro",
+      "name": "Flat - Noir (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "BLACK",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-03",
+      "pack": "Pro",
+      "name": "Flat - Pair (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "EVEN",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-04",
+      "pack": "Pro",
+      "name": "Flat - Impair (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "ODD",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-05",
+      "pack": "Pro",
+      "name": "Flat - 1-18 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "LOW",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-06",
+      "pack": "Pro",
+      "name": "Flat - 19-36 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "HIGH",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-07",
+      "pack": "Pro",
+      "name": "Dozaine - D1 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "DOZEN",
+          "pick": "D1",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-08",
+      "pack": "Pro",
+      "name": "Dozaine - D3 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "DOZEN",
+          "pick": "D3",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-09",
+      "pack": "Pro",
+      "name": "Colonne - C1 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "COLUMN",
+          "pick": "C1",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-10",
+      "pack": "Pro",
+      "name": "Colonne - C3 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "COLUMN",
+          "pick": "C3",
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-11",
+      "pack": "Pro",
+      "name": "Coverage - D1+D3 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "DOZEN",
+          "pick": "D1",
+          "units": 1
+        },
+        {
+          "type": "DOZEN",
+          "pick": "D3",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-12",
+      "pack": "Pro",
+      "name": "Coverage - C1+C3 (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "LOW",
+      "notes": "",
+      "legs": [
+        {
+          "type": "COLUMN",
+          "pick": "C1",
+          "units": 1
+        },
+        {
+          "type": "COLUMN",
+          "pick": "C3",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-13",
+      "pack": "Pro",
+      "name": "French - Voisins du Zero (scale 2)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 2,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 3,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 4,
+          "b": 7,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 12,
+          "b": 15,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 18,
+          "b": 21,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 19,
+          "b": 22,
+          "units": 2
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 25,
+          "units": 4
+        },
+        {
+          "type": "SPLIT",
+          "a": 32,
+          "b": 35,
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-14",
+      "pack": "Pro",
+      "name": "French - Tiers (scale 2)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 27,
+          "b": 30,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 8,
+          "b": 11,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 10,
+          "b": 13,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 23,
+          "b": 24,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 5,
+          "b": 6,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 16,
+          "b": 33,
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-15",
+      "pack": "Pro",
+      "name": "French - Orphelins (scale 2)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "STRAIGHT",
+          "n": 1,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 6,
+          "b": 9,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 14,
+          "b": 17,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 17,
+          "b": 20,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 31,
+          "b": 34,
+          "units": 2
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-16",
+      "pack": "Pro",
+      "name": "French Mix - Voisins + Orphelins",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "Mise totale plus elevee.",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 2,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 3,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 4,
+          "b": 7,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 12,
+          "b": 15,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 18,
+          "b": 21,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 19,
+          "b": 22,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 25,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 32,
+          "b": 35,
+          "units": 1
+        },
+        {
+          "type": "STRAIGHT",
+          "n": 1,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 6,
+          "b": 9,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 14,
+          "b": 17,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 17,
+          "b": 20,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 31,
+          "b": 34,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-17",
+      "pack": "Pro",
+      "name": "Outside + French - Rouge + Tiers",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "RED",
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 27,
+          "b": 30,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 8,
+          "b": 11,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 10,
+          "b": 13,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 23,
+          "b": 24,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 5,
+          "b": 6,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 16,
+          "b": 33,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-18",
+      "pack": "Pro",
+      "name": "Outside + French - Noir + Voisins",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "MODERATE",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "BLACK",
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 2,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 3,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 4,
+          "b": 7,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 12,
+          "b": 15,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 18,
+          "b": 21,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 19,
+          "b": 22,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 25,
+          "units": 2
+        },
+        {
+          "type": "SPLIT",
+          "a": 32,
+          "b": 35,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-19",
+      "pack": "Pro",
+      "name": "Progression - Martingale sur Rouge (cap 80EUR)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "MARTINGALE",
+      "capStake": 80,
+      "risk": "HIGH",
+      "notes": "Exercice: mesurer mise max et drawdown. Cap conseille.",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "RED",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-20",
+      "pack": "Pro",
+      "name": "Progression - D'Alembert sur D2 (cap 120EUR)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "DALEMBERT",
+      "capStake": 120,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "DOZEN",
+          "pick": "D2",
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-21",
+      "pack": "Pro",
+      "name": "Inside - 2 streets (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "STREET",
+          "start": 1,
+          "units": 1
+        },
+        {
+          "type": "STREET",
+          "start": 13,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-22",
+      "pack": "Pro",
+      "name": "Inside - 2 six-lines (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SIXLINE",
+          "start": 1,
+          "units": 1
+        },
+        {
+          "type": "SIXLINE",
+          "start": 7,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-23",
+      "pack": "Pro",
+      "name": "Inside - 6 straights spread (6u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "VERY_HIGH",
+      "notes": "Exercice variance: forte dispersion.",
+      "legs": [
+        {
+          "type": "STRAIGHT",
+          "n": 7,
+          "units": 1
+        },
+        {
+          "type": "STRAIGHT",
+          "n": 9,
+          "units": 1
+        },
+        {
+          "type": "STRAIGHT",
+          "n": 17,
+          "units": 1
+        },
+        {
+          "type": "STRAIGHT",
+          "n": 21,
+          "units": 1
+        },
+        {
+          "type": "STRAIGHT",
+          "n": 27,
+          "units": 1
+        },
+        {
+          "type": "STRAIGHT",
+          "n": 33,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-24",
+      "pack": "Pro",
+      "name": "Inside - Corners mid-table (5u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "CORNER",
+          "topLeft": 13,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 16,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 19,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 22,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 25,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-25",
+      "pack": "Pro",
+      "name": "Inside - Splits horizontaux (6u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 1,
+          "b": 2,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 2,
+          "b": 3,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 4,
+          "b": 5,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 5,
+          "b": 6,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 7,
+          "b": 8,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 8,
+          "b": 9,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-26",
+      "pack": "Pro",
+      "name": "Inside - Zero mini (2u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "Exercice: impact du 0 sur des strategies outside.",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 2,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 0,
+          "b": 3,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-27",
+      "pack": "Pro",
+      "name": "Inside - Streets ladder (4u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "STREET",
+          "start": 1,
+          "units": 1
+        },
+        {
+          "type": "STREET",
+          "start": 4,
+          "units": 1
+        },
+        {
+          "type": "STREET",
+          "start": 7,
+          "units": 1
+        },
+        {
+          "type": "STREET",
+          "start": 10,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-28",
+      "pack": "Pro",
+      "name": "Inside - Corners ladder (6u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "CORNER",
+          "topLeft": 1,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 4,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 7,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 10,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 13,
+          "units": 1
+        },
+        {
+          "type": "CORNER",
+          "topLeft": 16,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-29",
+      "pack": "Pro",
+      "name": "Inside - 4 splits + 1 street (5u)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "FLAT",
+      "capStake": 0,
+      "risk": "VERY_HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "SPLIT",
+          "a": 14,
+          "b": 17,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 17,
+          "b": 20,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 20,
+          "b": 23,
+          "units": 1
+        },
+        {
+          "type": "SPLIT",
+          "a": 23,
+          "b": 26,
+          "units": 1
+        },
+        {
+          "type": "STREET",
+          "start": 31,
+          "units": 1
+        }
+      ]
+    },
+    {
+      "id": "SL-PRO-30",
+      "pack": "Pro",
+      "name": "Progression - Paroli sur Noir (cap 80EUR)",
+      "wheel": "EU",
+      "baseUnit": 5,
+      "progression": "PAROLI",
+      "capStake": 80,
+      "risk": "HIGH",
+      "notes": "",
+      "legs": [
+        {
+          "type": "EVEN_MONEY",
+          "pick": "BLACK",
+          "units": 1
+        }
+      ]
+    }
+  ]
+}
